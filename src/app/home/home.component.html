@@ -1,7 +1,7 @@
 <div [class]="loader_active?'loading': ''">
     <div [class]="loader_active?'loader': ''"></div>
 </div>
-<!-- @defer(on immediate){ -->
+
 <div class="main">
     <div class="banner">
         <img class="backdrop" [src]="Trending[0].backdrop_path | image" [alt]="Trending[0].name || Trending[0].title"
@@ -88,7 +88,3 @@
         </div>
     </div>
 </div>
-<!-- }
-@loading(minimum 250ms){
-<app-loader></app-loader>
-} -->

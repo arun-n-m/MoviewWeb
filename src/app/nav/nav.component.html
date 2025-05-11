@@ -1,6 +1,6 @@
 <header [class.mobile-menu-active]="menuActive">
   <h2 class="logo" [routerLink]="['/']"><span style="color: #ff0000">Hey</span>Movies</h2>
-  <div class="bx bx-menu" id="menu-icon" (click)="toggleMenu()">☰</div>
+  <div class="bx bx-menu" id="menu-icon" (click)="toggleMenu()"></div>
   <nav class="navbar">
     <a [routerLink]="['/home']" routerLinkActive="active">Home</a>
     <a [routerLink]="['/vidoes']" [queryParams]="{ type:'movie' }" routerLinkActive="active">Movies</a>
